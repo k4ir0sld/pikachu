@@ -136,6 +136,29 @@ footer{
     }
 }
 
+/* MOBILE */
 @media (max-width: 480px){
+    .sombra{
+        transform: translate(-50%, -230%);
+    }
+    h1{
+        transform: translateY(25%);
+    }
+
+    .descricao h2 {
+        font-size: 38px;
+    }
+
+    .descricao p{
+        display: none;
+    }
+
+    .pikachu{
+        height: 50vh;
+    }
+
+    .container a{
+        width: 100%;
+    }
 
 }
